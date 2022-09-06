@@ -1,0 +1,50 @@
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flex div {
+  font-size: 14px;
+  margin-left: 10px;
+  color: #00000080;
+}
+
+.loadinganimation🔃 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+.waterMark {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: gray;
+}
+
+.outer_div {
+  display: flex;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.scroll-content-left {
+  position: sticky;
+  width: 100%;
+  flex: 1 0 65%;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
